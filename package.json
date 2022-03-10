@@ -1,7 +1,7 @@
 {
-  "name": "glsl-blend",
-  "version": "1.0.3",
-  "description": "glsl photoshop blend modes. glslify formatted.",
+  "name": "glsl-blending",
+  "version": "1.0.0",
+  "description": "glsl utils for photoshop blend modes. formatted for vite and vite-plugin-glsl",
   "main": "index.js",
   "scripts": {
     "start": "budo demo/demo-three.js -- -t glslify",
@@ -9,20 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jamieowen/glsl-blend.git"
+    "url": "git@github.com:sibhod/glsl-dst.git"
   },
   "author": "Jamie Owen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jamieowen/glsl-blend/issues"
+    "url": "https://github.com/sibhod/glsl-blending/issues"
   },
-  "homepage": "https://github.com/jamieowen/glsl-blend",
+  "homepage": "https://github.com/sibhod/glsl-blending",
   "devDependencies": {
     "browserify": "^9.0.7",
-    "budo": "^8.3.0",
-    "glslify": "^2.0.1",
-    "orbit-controls": "^1.0.4",
-    "three": "^0.78.0",
     "uglify-js": "^2.4.19"
   },
   "dependencies": {}
